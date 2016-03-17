@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+Its create a invisible git folder that enable our project to be seen as a vc project.
+to enable us keep track of the versions of reflection project.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
