@@ -1,0 +1,2 @@
+Now that you have your workspace set up, what do you want to try using Git for?
+i want to built a website and manange my projext using git
