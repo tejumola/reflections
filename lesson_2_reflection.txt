@@ -3,4 +3,49 @@ Its create a invisible git folder that enable our project to be seen as a vc pro
 to enable us keep track of the versions of reflection project.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+the staging area is like a memory to keep files to be committed so you can add specific files you want to change and revoke changes.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+by making sure i commit per logical change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when i want to create a easier version of a game,a language version
+
+How do the diagrams help you visualize the branch structure?
+it helps me understand that commits cannot be necessarily linear,then i see brtanches as a new feature from my master
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+it leads to a branch with all commit from the two branches coming together and interleaved.for clearitys
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+automatic merging saves time and help you do alot underground but manual merging really help you to analyse the code an know what is going out or staying after diff pple have worked on a file.
+
+
+commit message
+
+The Type
+The type is contained within the title and can be one of these types:
+
+feat: a new feature
+fix: a bug fix
+docs: changes to documentation
+style: formatting, missing semi colons, etc; no code change
+refactor: refactoring production code
+test: adding tests, refactoring test; no production code change
+chore: updating build tasks, package manager configs, etc; no production code change
+
+The Subject
+Subjects should be no greater than 50 characters, should begin with a capital letter and do not end with a period.
+
+Use an imperative tone to describe what a commit does, rather than what it did. For example, use change; not changed or changes
+
+The Body
+Not all commits are complex enough to warrant a body, therefore it is optional and only used when a commit requires a bit of explanation and context. Use the body to explain the what and why of a commit, not the how.
+
+When writing a body, the blank line between the title and the body is required and you should limit the length of each line to no more than 72 characters
+
+The Footer
+The footer is optional and is used to reference issue tracker IDs.
 
